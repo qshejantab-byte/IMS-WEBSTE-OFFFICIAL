@@ -1,0 +1,7 @@
+/* If scripts fail to run, never leave content hidden. */
+html.failsafe .rv { opacity: 1 !important; transform: none !important; }
+html.failsafe .hero .ln > span, html.failsafe .hero .nd, html.failsafe .hero .lane-label, html.failsafe .hero .evt, html.failsafe .hero .lg, html.failsafe .hero .lg p, html.failsafe .hero .hero__copy, html.failsafe .hero .hero__ctl, html.failsafe .hero .tr, html.failsafe .hero .jn, html.failsafe .hero .hero__rules line { opacity: 1 !important; transform: none !important; }
+html.failsafe .hero .tr-lit { stroke-dashoffset: 0 !important; }
+html.failsafe .acc__panel { grid-template-rows: 1fr !important; visibility: visible !important; }
+.js .acc__panel:not(.open) { visibility: hidden; transition: grid-template-rows .4s var(--ease), visibility 0s .4s; }
+.js .acc__panel.open { visibility: visible; transition: grid-template-rows .4s var(--ease); }

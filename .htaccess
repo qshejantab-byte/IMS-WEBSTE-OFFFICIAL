@@ -1,0 +1,14 @@
+Options -Indexes
+ErrorDocument 404 /ims/404.html
+
+# Retired pages: sent to their new home (old URLs keep working)
+Redirect 301 /ims/insights/ /ims/company/
+Redirect 301 /ims/customers/ /ims/company/#trust
+Redirect 301 /ims/security/ /ims/company/#trust
+Redirect 301 /ims/products/business-management-systems/ /ims/products/
+Redirect 301 /ims/products/ai-agents/ /ims/services/#ai
+Redirect 301 /ims/products/software-development/ /ims/services/#software
+Redirect 301 /ims/products/integrations/ /ims/services/#integrations
+Redirect 301 /ims/products/digital-experiences/ /ims/services/#digital
+Redirect 301 /ims/products/continuous-care/ /ims/services/#care
+Redirect 301 /ims/products/hotel-resort-pos/ /ims/products/hms/
