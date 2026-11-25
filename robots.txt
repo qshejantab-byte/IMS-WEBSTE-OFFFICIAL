@@ -3,3 +3,5 @@ Allow: /
 Disallow: /api/
 Disallow: /data/
 Disallow: /_legacy/
+
+Sitemap: https://www.ims.rw/sitemap.xml
